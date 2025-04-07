@@ -1,12 +1,34 @@
-# React + Vite
+# 🔐 SignIn and SignUp Page using localStorage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple **authentication system** built using **React.js** that includes a **Sign In** and **Sign Up** page. User credentials are stored in the browser's **localStorage**, demonstrating basic form handling, validation, and local storage management in a React application.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Sign Up with name, email, and password
+- Sign In using registered credentials
+- Stores user data in localStorage
+- Validates email format and password match
+- Error handling for invalid credentials
+- Responsive and clean UI
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js, CSS
+- **State Management**: useState
+- **Storage**: localStorage (Browser)
+
+## 📂 Folder Structure
+
+```bash
+SignIn-and-SignUp-page-using-localStorage/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── SignIn.js
+│   │   └── SignUp.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
